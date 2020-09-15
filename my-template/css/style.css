@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "fontsMozer-SemiBold";
+  font-display: swap;
+  src: url("../fonts/fontsMozer-SemiBold.woff") format("woff"), url("../fonts/fontsMozer-SemiBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "impact2";
+  font-display: swap;
+  src: url("../fonts/impact2.woff") format("woff"), url("../fonts/impact2.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 13px/1.5 Montserrat, sans-serif;
+  color: #1f373d;
+  margin: 0;
+}
+
+h1 {
+  font-size: 62px;
+  letter-spacing: -1.54px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.db-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.block {
+  height: 100vh;
+  color: #000;
+}
+
+@media (max-width: 1200px) {
+  .db-container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .db-container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .db-container {
+    max-width: none;
+  }
+}
